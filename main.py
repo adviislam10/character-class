@@ -6,7 +6,6 @@ class Character:
         self.phrase1 = phrase1
         self.phrase2 = phrase2
         self.level = level
-        level = 0
 
     # Methods
     def speak(self, phraseNum):
@@ -21,8 +20,8 @@ class Character:
         print(self.name + " is level " + str(self.level) + "!")
 
 # Create Objects
-Po = Character("Po", "Skadoosh", "You have been blinded by pure awesomeness", 1)
-Spiderman = Character("Peter", "My Spider-Sense is tingling", "Happy?", 1)
+Po = Character("Po", "Skadoosh", "You have been blinded by pure awesomeness", 0)
+Spiderman = Character("Peter", "My Spider-Sense is tingling", "Happy?", 0)
 
 # Test Class and methods
 Spiderman.speak(1)
